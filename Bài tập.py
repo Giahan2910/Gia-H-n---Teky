@@ -1,7 +1,7 @@
 a = float(input("Nhập cân nặng(Kg): "))
 b = float(input("Nhập chiều cao(m): "))
 pt = input("Tính chỉ số BMI:")
-BMI = a/(b^2)
+BMI = a/(b*b)
 if BMI < 0:
     print("Gầy cấp độ III")
 if 16 <= BMI < 17:
