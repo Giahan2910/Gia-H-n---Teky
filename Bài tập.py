@@ -5,9 +5,9 @@ BMI = a/(b*b)
 if BMI < 0:
     print("Gầy cấp độ III")
 if 16 <= BMI < 17:
-    print("Gày cấp độ II")
+    print("Gầy cấp độ II")
 if 17 <= BMI < 18.5:
-     print("Gày cấp độ I")
+     print("Gầy cấp độ I")
 if 18.5 <= BMI < 25:
     print("Bình thường")
 if 25 <= BMI < 30:
